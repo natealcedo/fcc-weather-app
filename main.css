@@ -1,0 +1,16 @@
+body {
+  background-color: #708090;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh; }
+  body div {
+    color: white; }
+    body div h1 {
+      font-family: 'Lobster';
+      font-size: 60px; }
+    body div h2 {
+      font-family: 'Cabin';
+      font-size: 50px; }

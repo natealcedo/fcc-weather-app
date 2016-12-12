@@ -1,0 +1,30 @@
+{
+  "name": "ndaljr.github.io",
+  "version": "1.0.0",
+  "description": "A profile page to be used for highlighting my projects.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ndaljr/ndaljr.github.io.git"
+  },
+  "keywords": [
+    "portfolio",
+    "profilepage"
+  ],
+  "author": "nathaniel d alcedo jr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ndaljr/ndaljr.github.io/issues"
+  },
+  "homepage": "https://github.com/ndaljr/ndaljr.github.io#readme",
+  "devDependencies": {},
+  "dependencies": {
+    "browser-sync": "^2.18.2",
+    "gulp": "^3.9.1",
+    "gulp-pug": "^3.2.0",
+    "gulp-sass": "^2.3.2"
+  }
+}
