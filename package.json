@@ -4,7 +4,9 @@
   "description": "A profile page to be used for highlighting my projects.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -25,6 +27,8 @@
     "browser-sync": "^2.18.2",
     "gulp": "^3.9.1",
     "gulp-pug": "^3.2.0",
-    "gulp-sass": "^2.3.2"
-  }
+    "gulp-sass": "^2.3.2",
+    "snyk": "^1.83.0"
+  },
+  "snyk": true
 }
